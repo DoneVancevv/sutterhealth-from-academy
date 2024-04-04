@@ -273,7 +273,7 @@ header {
 }
 
 .grid-item.grid-item-6 {
-    background-image: url('images/photo.png');
+    background-image: url('images/gridphoto.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -281,23 +281,34 @@ header {
     justify-content: center;
     text-align: center;
     align-items: center;
-    
+    border-radius: 30px;
 }
+
+.grid-item.grid-item-6 p {
+    padding: 30px;
+}
+
 #grid_photos {
     transition: transform 0.3s ease;
 }
-#grid_photos:hover{
+
+#grid_photos:hover {
     transform: scale(1.1);
 }
-#text_link:hover{
+
+#text_link:hover {
     color: #34F2E7;
 }
+
 .lastgridtext {
     padding-top: 50px;
 }
+
 .lastbutton {
     margin-bottom: 40px;
+    width: 136px !important;
 }
+
 .grid-item.grid-item5 {
     max-width: 100%;
 }
@@ -313,8 +324,10 @@ header {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 #button:hover {
     background-color: #34F2E7;
+    color: black;
 
 }
 
